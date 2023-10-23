@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AUTOCAREMANAGER.API", "AUTOCAREMANAGER.API\AUTOCAREMANAGER.API.csproj", "{6CF56A39-5448-4364-865E-C98283836D96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AUTOCAREMANAGER.DOMAIN", "AUTOCAREMANAGER.DOMAIN\AUTOCAREMANAGER.DOMAIN.csproj", "{BF5E02C0-234C-4FCC-BEF7-59E255421311}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CF56A39-5448-4364-865E-C98283836D96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF56A39-5448-4364-865E-C98283836D96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF56A39-5448-4364-865E-C98283836D96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF56A39-5448-4364-865E-C98283836D96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5E02C0-234C-4FCC-BEF7-59E255421311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5E02C0-234C-4FCC-BEF7-59E255421311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5E02C0-234C-4FCC-BEF7-59E255421311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5E02C0-234C-4FCC-BEF7-59E255421311}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D37328F-807F-4771-8C3F-A649CAC877CB}
+	EndGlobalSection
+EndGlobal
