@@ -9,5 +9,6 @@ namespace AUTOCAREMANAGER.DOMAIN.Core.Interfaces
         Task<IEnumerable<TbUsuario>> GetUsuarios();
         Task<bool> Insert(TbUsuario usuario);
         Task<bool> Update(TbUsuario usuario);
+        Task<bool> SignIn(string email, string password );
     }
 }

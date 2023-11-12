@@ -52,10 +52,9 @@ namespace AUTOCAREMANAGER.DOMAIN.Infrastructure.Repositories
             return (usuario != null);
         }
 
-
-
-
-
-
+        public Task<bool> SignIn(string email, string password)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

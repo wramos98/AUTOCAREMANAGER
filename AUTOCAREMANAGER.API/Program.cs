@@ -27,6 +27,7 @@ builder.Services.AddTransient<IArticuloRepository, ArticuloRepository>();
 builder.Services.AddTransient<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddTransient<IVehiculoRepository, VehiculoRepository>();
 builder.Services.AddTransient<ITallerRepository, TallerRepository>();
+builder.Services.AddTransient<IFactVentaCabRepository, FactVentaCabRepository>();
 
 var app = builder.Build();
 
